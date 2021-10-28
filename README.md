@@ -2,33 +2,33 @@
 ## Аplication description
 The idea of application is to make to-do-lists that will work as tamagachi game.
 ## Roles
--Admin
--User
--Guest
++Admin
++User
++Guest
 ## Parts
--Lists
-  -name
-  -description
--Tasks
-  -name
-  -descrition
-  -list name
-  -deadline
-  -done/not(maybe)
--Tamagachi
-  -Helth
-  -Money
-  -Hill
-  -Status: helthy, ill, dead.
++Lists
+  +name
+  +description
++Tasks
+  +name
+  +descrition
+  +list name
+  +deadline
+  +done/not(maybe)
++Tamagachi
+  +Helth
+  +Money
+  +Hill
+  +Status: helthy, ill, dead.
 At the begining tamagachi will have 100 hp, 0 coins, status helthy, hill will cost 15 coins and return 10 hp.
 ## Actions of user
  1. Program will have register form were user mast enter:
-  -UserName
-  -Password
+  +UserName
+  +Password
 	and click button "Enter", that will close form and show main page with tamagachi and lists. Program will generate id for user and add user to database.
  2. Program will have log in form were user mast enter:
-  -UserName
-  -Password
+  +UserName
+  +Password
 	and click button "Enter", that will close form and show main page with tamagachi and lists.
  3. Click button "Add list" and get form were user must add name of the list and optionaly can add description of the list and accept changes.
 User will see added list in list of lists with description. If description will be big user will see only part of it. Information about list will be add to database.
@@ -53,19 +53,19 @@ guest have chosen.
  3. Ban users.
 ## Tamagachi status
  1. Healthy (100-40hp):
-   -Hill -15 coins + 10hp
+   +Hill -15 coins + 10hp
  2. Ill(40-1hp):
-   -Hill -10 coins + 15hp
-   -After 20hp guest help
+   +Hill -10 coins + 15hp
+   +After 20hp guest help
  3. Dead (0hp):
-   -User can't change tasks and lists and mark them as done for 24 hours of tamagachi hill
+   +User can't change tasks and lists and mark them as done for 24 hours of tamagachi hill
 
 ## P.s. what can be added (if will be enough time to do this)
-	-Calendars
-	-Other thingth to shop not only hilling
-	-Dayly habit tracking
-	-More statistics for user or guest (and for the admin obviously)
-	-Task difficulty
-	-More ways for admin to modedrate difficulty.
+	+Calendars
+	+Other thingth to shop not only hilling
+	+Dayly habit tracking
+	+More statistics for user or guest (and for the admin obviously)
+	+Task difficulty
+	+More ways for admin to modedrate difficulty.
 I macket in process of thinking, tabels of DB in progress of thinking 
      
